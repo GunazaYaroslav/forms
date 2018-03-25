@@ -1,0 +1,191 @@
+body {
+    font-family: 'Arial', serif;
+    background-image: url(../img/bg.jpg);
+    background-repeat: repeat-y;
+    background-position: top;
+
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-image: url(../img/navbg.jpg)
+}
+
+.navigation {
+    margin-left: 33%;
+}
+
+.nav_header {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80%;
+    text-decoration: none;
+    color: #5aaee7;
+    font-size: 16px;
+    transition: linear .5s;
+}
+
+.nav_header:hover {
+    background: #4eabda;
+    color: white;
+}
+
+.nav_header-Ajuda {
+    border-right: solid 1px #5aaee7;
+}
+
+.nav_header-Minhas {
+    color: white;
+}
+
+.regist {
+    float: right;
+    margin-right: 2%;
+    padding: 0px 10px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(81, 177, 220) 0%, rgb(46, 122, 196) 100%);
+    color: white;
+}
+
+.nav-regist {
+    color: white;
+}
+
+.form_register {
+    display: block;
+    width: 560px;
+    height: 615px;
+    margin: 150px auto 100px;
+}
+
+.form_register_text {
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 62px;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.form_register_form {
+    margin-top: 3px;
+    padding-top: 10px;
+    height: 570px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.link_facebook {
+    box-shadow: 0 0 5px 0 white;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 36px;
+    width: 276px;
+    margin: 37px auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(to bottom, rgba(62, 86, 148, 1) 1%, rgba(43, 66, 118, 1) 100%);
+    border-radius: 7px;
+    border-top-color: white;
+    line-height: 36px;
+    font-size: 18px;
+
+
+}
+
+.fac {
+    position: absolute;
+    right: 18px;
+}
+
+.icon-facebook {
+    position: absolute;
+    left: 0px;
+    font-size: 22px;
+    padding: 5px 13px 10px 15px;
+    border-right: solid 1px #1e3b73;
+}
+.fac strong {
+    font-weight: 100;
+}
+form_ac {
+    margin-top: 10
+}
+
+input {
+    display: block;
+}
+
+fieldset {
+    height: 430px;
+    width: 276px;
+    margin: 0px auto 0px;
+    border-top: outset 1px #494949;
+    text-align: center;
+}
+
+legend {
+    padding: 0px 2px 0px;
+    color: #cccccc;
+}
+
+#name,
+#namelast,
+#email,
+#password,
+#passwordconfirm {
+    width: 256px;
+    height: 26px;
+    padding: 5px 10px;
+    background-color: #100f0f;
+    border: solid 1px black;
+    border-bottom: solid 1px #494949;
+    margin: 20px auto;
+    color: #cccccc;
+    transition: all 1s;
+}
+
+#name:focus,
+#namelast:focus,
+#email:focus,
+#password:focus,
+#passwordconfirm:focus {
+    background-color: #1b5288;
+    color: #cccccc;
+    border-color: #4f7e9c;
+    box-shadow: 0px 0px 10px 5px #4f7e9c;
+}
+
+#check {
+    margin: 0px 20px 0px -20px;
+    display: inline-block;
+}
+
+label {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+#sub {
+    margin: 25px auto;
+    width: 150px;
+    height: 37px;
+    border-color: rgba(80, 174, 219, 0.5);
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to bottom, rgba(80, 174, 219, 1) 1%, rgba(46, 122, 196, 1) 100%);
+}
+
+.info {
+    text-align: center;
+    font-size: 11px;
+    color: #cccccc;
+}
